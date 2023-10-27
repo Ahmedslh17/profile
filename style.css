@@ -1,0 +1,120 @@
+body {
+  color: white;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+header{
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: smaller;
+line-height:normal;
+}
+
+link{
+color:blue;
+text-decoration:none;
+}
+
+.images{
+ width: 400px;
+ margin: auto;
+background-color: black;
+border-radius: 20px;
+align-items: center;
+text-align: center;
+
+}
+.card {
+  background-color: black;
+  border-radius: 20px;
+  width: 600px;
+  margin: 0 auto;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0px 0px 10px 5px black;
+  border-bottom: 6px solid #2c3e50;
+  border-right: 6px solid #2c3e50;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+color:white;
+  width: auto;
+  font-size: large;
+}
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Pour centrer horizontalement */
+}
+#slack{
+padding-left: 15px;
+
+}
+
+#snap {
+
+padding-right: 22px;
+
+}
+
+.social-icons li {
+  display: inline-block; /* Afficher les éléments en ligne */
+  margin-right: 10px; /* Espacement entre les icônes, ajustez selon vos besoins */
+}
+
+.social-icons a {
+  text-decoration: none;
+  color:white; /* Couleur du texte, ajustez selon vos besoins */
+}
+
+/* Styles pour les icônes (à personnaliser) */
+.fa-instagram:before {
+  content: "\f16d"; /* Code Unicode de l'icône Instagram (à personnaliser) */
+  font-family: "Font Awesome 5 Brands"; /* Assurez-vous d'inclure la police d'icônes Font Awesome */
+  font-size: 30px; /* Taille de l'icône (à personnaliser) */
+}
+
+.fa-snapchat:before {
+  content: "\f2ac"; /* Code Unicode de l'icône Snapchat (à personnaliser) */
+  font-family: "Font Awesome 5 Brands"; /* Assurez-vous d'inclure la police d'icônes Font Awesome */
+  font-size: 30px; /* Taille de l'icône (à personnaliser) */
+}
+
+.fa-slack:before {
+  content: "\f198"; /* Code Unicode de l'icône Slack (à personnaliser) */
+  font-family: "Font Awesome 5 Brands"; /* Assurez-vous d'inclure la police d'icônes Font Awesome */
+  font-size: 30px; /* Taille de l'icône (à personnaliser) */
+}
+h1,h2{
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
